@@ -1,3 +1,21 @@
+@media (min-width: 769px) and (max-width: 900px){
+
+}
+
+@media (max-width: 600px){
+    .content1{
+        background-image: url(./image/02.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .img-wrapper{
+        display: none;
+    }
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +34,26 @@ header{
 .grey-btn {
     background-color: grey;
     display: inline-block;
-    padding: 10px;
     border-radius: 50px;
 }
 
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+div {
+    padding: 0!important;
+}
+
+.img-wrapper{
+    background-image: url(./image/02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.content1{
+    display: flex;
+    align-items: center;
+}
