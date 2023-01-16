@@ -40,6 +40,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 header{
@@ -143,4 +144,20 @@ div {
 
 .brand-content img {
     width: 10vw;
+}
+
+.page-content,
+.section5{
+    width: 60vw;
+    margin: 100px auto 0 auto;
+}
+
+footer{
+    background-image: url(./image/03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-item{
+    padding-right: 50px!important;
 }
