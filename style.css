@@ -1,6 +1,6 @@
-@media (min-width: 769px) and (max-width: 900px){
+/* @media (min-width: 769px) and (max-width: 900px){
 
-}
+} */
 
 @media (max-width: 600px){
     .content1{
@@ -16,6 +16,23 @@
 
     .content22{
         flex-direction: column;
+    }
+
+    .wrapper{
+        flex-direction: column;
+    }
+
+    .content-item{
+        flex-direction: column;
+    }
+
+
+    .section2{
+        height: 100vh!important;
+    }
+
+    .section3{
+        height: 70vh!important;
     }
 
 }
@@ -83,3 +100,47 @@ div {
     align-items: center;
 }
 
+.section3{
+    height: 50vh;
+    background-image: url(./image/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.section4{
+    background-image: url(./image/tina-dawson-Kim9COAIEGc-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-item{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px!important;
+}
+
+.grey-photo{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.item1{
+    margin: 20px;
+}
+
+.brand-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand-content img {
+    width: 10vw;
+}
